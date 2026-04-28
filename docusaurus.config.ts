@@ -179,7 +179,7 @@ const config: Config = {
           ],
         }
       ],
-      copyright: `Copyright ¬© ${new Date().getFullYear()} tscircuit, Inc. Built with Docusaurus.`,
+      copyright: `Copyright (c) ${new Date().getFullYear()} tscircuit, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
