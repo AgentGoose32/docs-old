@@ -9,7 +9,7 @@ const config: Config = {
   url: 'https://your-docusaurus-site.example.com',
   baseUrl: '',
 
-  organizationName: 'tsciuit',
+  organizationName: 'tscircuit',
   projectName: 'tscircuit',
 
   onBrokenLinks: 'throw',
@@ -29,6 +29,8 @@ const config: Config = {
           path: 'docs',
           routeBasePath: 'docs',
           sidebarPath: './sidebars.ts',
+          editUrl:
+            'https://github.com/tscircuit/docs-old/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -55,6 +57,8 @@ const config: Config = {
         path: 'api-reference',
         routeBasePath: 'api-reference',
         sidebarPath: './sidebars.ts',
+        editUrl:
+          'https://github.com/tscircuit/docs-old/tree/main/',
       },
     ],
   ],
@@ -109,13 +113,8 @@ const config: Config = {
           docsPluginId: 'api'
         },
         {
-          href: 'mailto:contact@tscircuit.com',
-          label: 'Support',
-          position: 'right',
-        },
-        {
-          href: 'https://tscircuit.com/trending',
-          label: 'Find Packages',
+          href: 'https://tscircuit.com/editor',
+          label: 'Try Online',
           position: 'right',
         },
         {
@@ -184,7 +183,7 @@ const config: Config = {
           ],
         }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} tscircuit, Inc. Built with Docusaurus.`,
+      copyright: `Copyright (c) ${new Date().getFullYear()} tscircuit, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
